@@ -3,14 +3,15 @@ site_name: 大梦千秋的笔记
 #copyright: Fernando Celmer
 
 nav:
-  - 首页: index.md
-#  - 运维:
-#      - nav/setup/components.md
-#      - nav/setup/colors.md
-#      - nav/setup/fonts.md
-#      - nav/setup/logo.md
-#      - nav/setup/favicon.md
-#  - 开发:
+  - Home: index.md
+  - ops:
+      - one:
+          title: 从零开始部署CICD集群
+          url: 从零开始部署CICD集群.md
+      - two:
+          title: 更多
+          url: more.md
+  - dev:
 #      - nav/development/development-guide.md
 #      - nav/development/release-notes.md
 

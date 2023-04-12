@@ -394,7 +394,7 @@ vim /srv/docker/gitlab/env-file
 
 首先添加一个deploy key，用于jenkins拉取项目
 
-![](https://glwlg.github.io/post-images/1648201376830.png)
+![](attachments/Untitled.png)
 
 这里需要我们生成一个key 
 

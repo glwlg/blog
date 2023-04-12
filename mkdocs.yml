@@ -32,6 +32,7 @@ theme:
 extra:
   generator: false
 
+use_directory_urls: false
 # Extensions
 markdown_extensions:
   - footnotes

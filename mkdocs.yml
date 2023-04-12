@@ -5,11 +5,10 @@ site_name: 大梦千秋的笔记
 nav:
   - Home: index.md
   - ops:
-      - 从零开始部署CICD集群: 从零开始部署CICD集群.md
-      - 更多: more.md
-#  - dev:
-#      - nav/development/development-guide.md
-#      - nav/development/release-notes.md
+      - 123123: ops/123123.md
+      - 更多: ops/more.md
+  - dev:
+      - getting-started: getting-started.md
 
 theme:
     name: simple-blog

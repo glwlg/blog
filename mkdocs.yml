@@ -1,4 +1,19 @@
-site_name: obsidian-mkdocs template
+site_name: 大梦千秋的笔记
+#site_url: https://www.fernandocelmer.com/
+#copyright: Fernando Celmer
+
+nav:
+  - Home: index.md
+  - Getting Started: nav/getting-started.md
+  - Setup:
+      - nav/setup/components.md
+      - nav/setup/colors.md
+      - nav/setup/fonts.md
+      - nav/setup/logo.md
+      - nav/setup/favicon.md
+  - Development:
+      - nav/development/development-guide.md
+      - nav/development/release-notes.md
 
 theme:
     name: simple-blog

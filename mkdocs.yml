@@ -5,12 +5,10 @@ site_name: 大梦千秋的笔记
 nav:
   - Home: index.md
   - ops:
-      - one:
-          title: 从零开始部署CICD集群
-          url: 从零开始部署CICD集群.md
-      - two:
-          title: 更多
-          url: more.md
+      - title: 从零开始部署CICD集群
+        url: 从零开始部署CICD集群.md
+      - title: 更多
+        url: more.md
   - dev:
 #      - nav/development/development-guide.md
 #      - nav/development/release-notes.md

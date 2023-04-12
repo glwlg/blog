@@ -3,24 +3,23 @@ site_name: 大梦千秋的笔记
 #copyright: Fernando Celmer
 
 nav:
-  - Home: index.md
-  - Getting Started: nav/getting-started.md
-  - Setup:
-      - nav/setup/components.md
-      - nav/setup/colors.md
-      - nav/setup/fonts.md
-      - nav/setup/logo.md
-      - nav/setup/favicon.md
-  - Development:
-      - nav/development/development-guide.md
-      - nav/development/release-notes.md
+  - 首页: index.md
+#  - 运维:
+#      - nav/setup/components.md
+#      - nav/setup/colors.md
+#      - nav/setup/fonts.md
+#      - nav/setup/logo.md
+#      - nav/setup/favicon.md
+#  - 开发:
+#      - nav/development/development-guide.md
+#      - nav/development/release-notes.md
 
 theme:
     name: simple-blog
     favicon: assets/favicon.ico
     logo: assets/logo.png
     theme_style: light
-    site_name_style: normal
+    site_name_style: bold
     title_style: bold
     colors:
       text: black
@@ -33,25 +32,8 @@ theme:
       menu: true
       preview: true
       footer: true
-#    palette:
-#
-#    # Light mode
-#    - media: "(prefers-color-scheme: light)"
-#      scheme: default
-#      primary: pink
-#      accent: indigo
-#      toggle:
-#        icon: material/toggle-switch-off-outline
-#        name: Switch to dark mode
-#
-#    # Dark mode
-#    - media: "(prefers-color-scheme: dark)"
-#      scheme: slate
-#      primary: pink
-#      accent: blue
-#      toggle:
-#        icon: material/toggle-switch
-#        name: Switch to light mode
+extra:
+  generator: false
 
 # Extensions
 markdown_extensions:
